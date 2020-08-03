@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+  border: #0D0D0D solid 8px;
+}
+
+h1,
+h3 {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: calc(32px + 1vw);
+}
+
+p {
+  font-family: "Ubuntu";
+  font-size: calc(10px + 1vh);
+}
+
+nav ul a {
+  color: #2A2A2A;
+  font-family: "Anonymous Pro";
+  font-size: calc(10px + 1vh);
+}
+
+#landing-page,
+#projects-page,
+#contacts-page {
+  min-height: 90vh;
+  min-width: 100%;
+  height: auto;
+  background-color: #FFFFFE;
+  text-align: center;
+}
+
+#projects-page,
+#contacts-page {
+  border-top: #0D0D0D solid 18px;
+}
+
+c-1,
+a,
+.orange {
+  color: #FF8E3C;
+  text-decoration: underline;
+}
+
+.logo {
+  position: absolute;
+  left: -10px;
+}
+
+.landing-page__paragraph {
+  margin-top: 5%;
+}
+
+.landing-page__box {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  right: 25%;
+}
+
+#icon {
+  margin-top: 5%;
+}
+
+.landing-page__header,
+.landing-page__subHeader,
+h3 {
+  margin: 0;
+}
+
+.material-icons {
+  color: #0D0D0D;
+}
+
+.row {
+  padding: 5% 0 5% 0;
+}
+
+.row h1 {
+  font-size: calc(26px + 1vw);
+}
+
+.row h3 {
+  font-size: calc(20px + 1vw);
+}
+
+.row p {
+  font-size: calc(6px + 1vh);
+}
+
+.card {
+  margin: 2.5%;
+  border: black 2px solid;
+}
+
+.contacts__box {
+  margin-top: 20%;
+  border: black solid 2px;
+}
+
+.remove-padding {
+  margin: 0;
+  padding: 0 0 0 7.5%;
+  text-align: left;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.icon a {
+  padding-right: 7.5%;
+}
+
+@media only screen and (max-width: 550px) {
+  h1 {
+    font-size: calc(26px + 1vw);
+  }
+  h3 {
+    font-size: calc(20px + 1vw);
+  }
+  p {
+    font-size: calc(6px + 1vh);
+  }
+  c-1 {
+    font-size: calc(20px + 1vw);
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  h1 {
+    font-size: calc(22px + 1vw);
+  }
+  c-1 {
+    font-size: calc(16px + 1vw);
+  }
+}
+/*# sourceMappingURL=main.css.map */
