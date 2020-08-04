@@ -30,6 +30,26 @@ nav ul a {
   font-size: calc(10px + 1vh);
 }
 
+h6,
+.card-text {
+  font-size: 0.70em;
+}
+
+li {
+  text-align: left;
+}
+
+.card-image {
+  height: 240px;
+}
+
+c-1,
+a,
+.orange {
+  color: #FF8E3C;
+  text-decoration: underline;
+}
+
 #landing-page,
 #projects-page,
 #contacts-page {
@@ -45,11 +65,8 @@ nav ul a {
   border-top: #0D0D0D solid 18px;
 }
 
-c-1,
-a,
-.orange {
+.card-title {
   color: #FF8E3C;
-  text-decoration: underline;
 }
 
 .logo {
@@ -70,12 +87,6 @@ a,
 
 #icon {
   margin-top: 5%;
-}
-
-.landing-page__header,
-.landing-page__subHeader,
-h3 {
-  margin: 0;
 }
 
 .material-icons {
@@ -101,6 +112,7 @@ h3 {
 .card {
   margin: 2.5%;
   border: black 2px solid;
+  border-radius: 1%;
 }
 
 .contacts__box {
@@ -131,6 +143,11 @@ h3 {
   padding-right: 7.5%;
 }
 
+.modal-size {
+  width: auto;
+  height: auto;
+}
+
 @media only screen and (max-width: 550px) {
   h1 {
     font-size: calc(26px + 1vw);
@@ -144,6 +161,9 @@ h3 {
   c-1 {
     font-size: calc(20px + 1vw);
   }
+  h6, .card-text {
+    font-size: calc(10px + 1vw);
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -152,6 +172,9 @@ h3 {
   }
   c-1 {
     font-size: calc(16px + 1vw);
+  }
+  h6, .card-text {
+    font-size: calc(10px + 1vw);
   }
 }
 /*# sourceMappingURL=main.css.map */
